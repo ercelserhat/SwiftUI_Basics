@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var sayac: Int = 0
+    
     var body: some View {
-        GeometryReader { geometry in
-            let ekranGenislik = geometry.size.width
-            let ekranYukseklik = geometry.size.height
-            
-            HStack{
-                Rectangle().fill(.yellow).frame(maxWidth: ekranGenislik/2, maxHeight: .infinity)
-                Rectangle().fill(.pink).frame(width: ekranGenislik/5, height: ekranYukseklik)
-            }.frame(width: ekranGenislik, height: ekranYukseklik).background(.indigo)
+        VStack{
+            Text("Sayaç: \(sayac)")
+            Button("Tıkla"){
+                sayac += 1
+            }
         }
     }
 }
