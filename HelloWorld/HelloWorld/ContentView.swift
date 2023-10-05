@@ -9,34 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack{
-            SariKare()
-            PembeKare()
-            Metin(icerik: "Merhaba", yaziBoyutu: 25)
+        GeometryReader { geometry in
+            let ekranGenislik = geometry.size.width
+            let ekranYukseklik = geometry.size.height
+            
+            HStack{
+                Rectangle().fill(.yellow).frame(maxWidth: ekranGenislik/2, maxHeight: .infinity)
+                Rectangle().fill(.pink).frame(width: ekranGenislik/5, height: ekranYukseklik)
+            }.frame(width: ekranGenislik, height: ekranYukseklik).background(.indigo)
         }
     }
 }
 
 #Preview {
     ContentView()
-}
-
-struct SariKare: View{
-    var body: some View{
-        Rectangle().fill(.yellow).frame(maxWidth: 100, maxHeight: .infinity)
-    }
-}
-
-struct PembeKare: View{
-    var body: some View{
-        Rectangle().fill(.pink).frame(width: 100, height: 200)
-    }
-}
-
-struct Metin: View{
-    var icerik = ""
-    var yaziBoyutu = 0
-    var body: some View{
-        Text(icerik).font(.system(size: CGFloat(yaziBoyutu)))
-    }
 }
