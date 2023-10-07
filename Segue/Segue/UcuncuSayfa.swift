@@ -10,6 +10,8 @@ import SwiftUI
 struct UcuncuSayfa: View {
     var body: some View {
         VStack{
+            Text("Sonuç Ekranı").font(.system(size: 30))
+            Spacer().frame(height: 200)
             Button("Anasayfaya Git"){
                 
             }
