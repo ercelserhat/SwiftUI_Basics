@@ -13,12 +13,11 @@ struct IkinciSayfa: View {
     
     @State private var ucuncuEkranaGecis = false
     
-    var isim = ""
-    var yas = 0
+    var kisi = Kisiler()
     
     var body: some View {
         VStack(spacing: 50){
-            Text("İsim: \(isim), Yaş: \(yas)")
+            Text("İsim: \(kisi.isim!), Yaş: \(kisi.yas!)")
             Button("Üçüncü Sayfaya Git"){
                 ucuncuEkranaGecis = true
             }

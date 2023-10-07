@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A5B801F2AD197DE009D4C12 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B801E2AD197DE009D4C12 /* Kisiler.swift */; };
 		7A77DB452AD174A70088B8D4 /* SegueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77DB442AD174A70088B8D4 /* SegueApp.swift */; };
 		7A77DB472AD174A70088B8D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77DB462AD174A70088B8D4 /* ContentView.swift */; };
 		7A77DB492AD174A90088B8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A77DB482AD174A90088B8D4 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A5B801E2AD197DE009D4C12 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 		7A77DB412AD174A70088B8D4 /* Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A77DB442AD174A70088B8D4 /* SegueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueApp.swift; sourceTree = "<group>"; };
 		7A77DB462AD174A70088B8D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				7A77DB4A2AD174A90088B8D4 /* Preview Content */,
 				7A77DB522AD1751C0088B8D4 /* IkinciSayfa.swift */,
 				7A77DB542AD175530088B8D4 /* UcuncuSayfa.swift */,
+				7A5B801E2AD197DE009D4C12 /* Kisiler.swift */,
 			);
 			path = Segue;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				7A77DB472AD174A70088B8D4 /* ContentView.swift in Sources */,
 				7A77DB452AD174A70088B8D4 /* SegueApp.swift in Sources */,
 				7A77DB552AD175530088B8D4 /* UcuncuSayfa.swift in Sources */,
+				7A5B801F2AD197DE009D4C12 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

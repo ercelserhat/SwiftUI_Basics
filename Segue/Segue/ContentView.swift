@@ -23,7 +23,8 @@ struct ContentView: View {
             }
             .padding().navigationTitle("Anasayfa")
             .navigationDestination(isPresented: $ikinciEkranaGecis){
-                IkinciSayfa(isim: "Serhat", yas: 31)
+                let kisi = Kisiler(isim: "Serhat", yas: 31)
+                IkinciSayfa(kisi: kisi)
             }
         }
     }
