@@ -11,6 +11,8 @@
 		7A77DB472AD174A70088B8D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77DB462AD174A70088B8D4 /* ContentView.swift */; };
 		7A77DB492AD174A90088B8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A77DB482AD174A90088B8D4 /* Assets.xcassets */; };
 		7A77DB4C2AD174A90088B8D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A77DB4B2AD174A90088B8D4 /* Preview Assets.xcassets */; };
+		7A77DB532AD1751C0088B8D4 /* IkinciSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77DB522AD1751C0088B8D4 /* IkinciSayfa.swift */; };
+		7A77DB552AD175530088B8D4 /* UcuncuSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77DB542AD175530088B8D4 /* UcuncuSayfa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7A77DB462AD174A70088B8D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A77DB482AD174A90088B8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A77DB4B2AD174A90088B8D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A77DB522AD1751C0088B8D4 /* IkinciSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkinciSayfa.swift; sourceTree = "<group>"; };
+		7A77DB542AD175530088B8D4 /* UcuncuSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UcuncuSayfa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				7A77DB462AD174A70088B8D4 /* ContentView.swift */,
 				7A77DB482AD174A90088B8D4 /* Assets.xcassets */,
 				7A77DB4A2AD174A90088B8D4 /* Preview Content */,
+				7A77DB522AD1751C0088B8D4 /* IkinciSayfa.swift */,
+				7A77DB542AD175530088B8D4 /* UcuncuSayfa.swift */,
 			);
 			path = Segue;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A77DB532AD1751C0088B8D4 /* IkinciSayfa.swift in Sources */,
 				7A77DB472AD174A70088B8D4 /* ContentView.swift in Sources */,
 				7A77DB452AD174A70088B8D4 /* SegueApp.swift in Sources */,
+				7A77DB552AD175530088B8D4 /* UcuncuSayfa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
