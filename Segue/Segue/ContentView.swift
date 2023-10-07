@@ -11,6 +11,10 @@ struct ContentView: View {
     
     @State private var ikinciEkranaGecis = false
     
+    init(){
+        print("init metodu çalıştı")
+    }
+    
     var body: some View {
         NavigationStack {
             VStack (spacing: 30){
@@ -25,6 +29,11 @@ struct ContentView: View {
             .navigationDestination(isPresented: $ikinciEkranaGecis){
                 let kisi = Kisiler(isim: "Serhat", yas: 31)
                 IkinciSayfa(kisi: kisi)
+            }
+            .onAppear{
+                print("onAppear metodu çalıştı.")
+            }.onDisappear{
+                print("onDisappear metodu çalıştı.")
             }
         }
     }
