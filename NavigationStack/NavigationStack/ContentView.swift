@@ -9,13 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack{
+                Text("Merhaba")
+            }.navigationTitle("Anasayfa")
+            //.navigationBarTitleDisplayMode(.inline)
+                .toolbar{
+                    ToolbarItem(placement: .topBarLeading){
+                        Button("Geri"){
+                            print("Geri tıklandı.")
+                        }
+                    }
+                    ToolbarItemGroup(placement: .topBarTrailing){
+                        Button("Ayarlar"){
+                            print("Ayarlar tıklandı.")
+                        }
+                        Button{
+                            print("Ekle tıklandı.")
+                        } label: {
+                            Image(systemName: "plus")
+                        }
+                    }
+                }
         }
-        .padding()
     }
 }
 
