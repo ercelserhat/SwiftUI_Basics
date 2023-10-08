@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var alert = false
+    @State private var actionSheet = false
     
     var body: some View {
         VStack(spacing: 30) {
@@ -25,6 +26,21 @@ struct ContentView: View {
             }, message: {
                 Text("İçerik")
             })
+            
+            Button("Action Sheet"){
+                actionSheet = true
+            }.actionSheet(isPresented: $actionSheet){
+                ActionSheet(title: Text("Başlık"),
+                            message: Text("İçerik"),
+                            buttons: [
+                                .default(Text("İptal"), action: {
+                                    print("İptal Tıklandı.")
+                                }),
+                                .destructive(Text("Tamam"), action: {
+                                    print("Tamam Tıklandı.")
+                                })
+                            ])
+            }
         }
         .padding()
     }
