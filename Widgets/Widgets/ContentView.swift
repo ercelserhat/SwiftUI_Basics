@@ -9,12 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var sliderDurum = 30.0
-    
     var body: some View {
         VStack{
-            Slider(value: $sliderDurum, in: 0...100).padding()
-            Text("Sonuç: \(Int(sliderDurum))")
+            Text("Tıkla").onTapGesture {
+                print("Tıklandı.")
+            }
+            Text("Çift Tıkla").onTapGesture(count: 2) {
+                print("Çift Tıklandı.")
+            }
         }
         .padding()
     }
