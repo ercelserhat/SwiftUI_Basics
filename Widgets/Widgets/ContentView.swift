@@ -9,13 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var stepperDurum = 0
+    @State private var sliderDurum = 30.0
     
     var body: some View {
         VStack{
-            Stepper("Stepper", value: $stepperDurum, in: 0...10)
-                .padding()
-            Text("Sonuç: \(stepperDurum)")
+            Slider(value: $sliderDurum, in: 0...100).padding()
+            Text("Sonuç: \(Int(sliderDurum))")
         }
         .padding()
     }
