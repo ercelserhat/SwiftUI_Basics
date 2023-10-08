@@ -9,26 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var alinanVeri = ""
-    @State private var textField = ""
+    @State private var resimAdi = "mutlu"
     
     var body: some View {
-        VStack {
-            Text("Gelen Veri: \(alinanVeri)")
-                .font(.system(size: 25))
-                .padding()
-                .background(.blue)
-                .foregroundStyle(.white)
-                .bold()
-            TextField("Veri giriniz", text: $textField)
-                .textFieldStyle(MyStyle())
-                .padding()
-            Button("Veriyi Al"){
-                alinanVeri = textField
-            }.foregroundStyle(.white)
-                .padding()
-                .background(.pink)
-                .cornerRadius(3.0)
+        VStack (spacing: 20){
+            Image(resimAdi).resizable().frame(width: 100, height: 100)
+            Button("Mutlu"){
+                resimAdi = "mutlu"
+            }
+            Button("Üzgün"){
+                resimAdi = "uzgun"
+            }
         }
         .padding()
     }
