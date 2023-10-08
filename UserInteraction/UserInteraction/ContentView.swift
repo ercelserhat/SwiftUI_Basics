@@ -41,6 +41,21 @@ struct ContentView: View {
                                 })
                             ])
             }
+            
+            Text("Context Menu")
+                .contextMenu{
+                    Button{
+                        print("Resim seçildi.")
+                    }label: {
+                        Label("Resim Çek", systemImage: "camera")
+                    }
+                    
+                    Button{
+                        print("Video seçildi.")
+                    }label: {
+                        Label("Video Kaydet", systemImage: "video")
+                    }
+                }
         }
         .padding()
     }
