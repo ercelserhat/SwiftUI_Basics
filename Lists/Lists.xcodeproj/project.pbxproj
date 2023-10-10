@@ -12,6 +12,7 @@
 		7A160B1E2AD5C7970044B95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A160B1D2AD5C7970044B95F /* Assets.xcassets */; };
 		7A160B212AD5C7970044B95F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A160B202AD5C7970044B95F /* Preview Assets.xcassets */; };
 		7A160B282AD5C88C0044B95F /* StaticGridList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A160B272AD5C88C0044B95F /* StaticGridList.swift */; };
+		7A160B2A2AD5D7870044B95F /* HorizontalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A160B292AD5D7870044B95F /* HorizontalList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7A160B1D2AD5C7970044B95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A160B202AD5C7970044B95F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A160B272AD5C88C0044B95F /* StaticGridList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticGridList.swift; sourceTree = "<group>"; };
+		7A160B292AD5D7870044B95F /* HorizontalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				7A160B192AD5C7960044B95F /* ListsApp.swift */,
 				7A160B1B2AD5C7960044B95F /* ContentView.swift */,
 				7A160B272AD5C88C0044B95F /* StaticGridList.swift */,
+				7A160B292AD5D7870044B95F /* HorizontalList.swift */,
 				7A160B1D2AD5C7970044B95F /* Assets.xcassets */,
 				7A160B1F2AD5C7970044B95F /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A160B282AD5C88C0044B95F /* StaticGridList.swift in Sources */,
+				7A160B2A2AD5D7870044B95F /* HorizontalList.swift in Sources */,
 				7A160B1C2AD5C7960044B95F /* ContentView.swift in Sources */,
 				7A160B1A2AD5C7960044B95F /* ListsApp.swift in Sources */,
 			);
