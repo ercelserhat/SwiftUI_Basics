@@ -11,7 +11,7 @@ import SwiftUI
 struct ListsApp: App {
     var body: some Scene {
         WindowGroup {
-            DynamicList()
+            DynamicGridListing()
         }
     }
 }
