@@ -17,4 +17,17 @@ class KisilerDao{
         kisi.kisi_tel = kisi_tel
         saveContext()
     }
+    
+    func tumKisiler(){
+        do{
+            let liste = try context.fetch(Kisiler.fetchRequest())
+            for k in liste{
+                print("---------------------")
+                print("Kişi Ad: \(k.kisi_ad!)")
+                print("Kişi Tel: \(k.kisi_tel!)")
+            }
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
 }
