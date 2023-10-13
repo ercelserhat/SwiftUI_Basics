@@ -12,6 +12,9 @@ struct ContentView: View {
     
     var body: some View {
         Text("")
+            .onAppear(){
+                let kdao = KisilerDao()
+            }
     }
 }
 

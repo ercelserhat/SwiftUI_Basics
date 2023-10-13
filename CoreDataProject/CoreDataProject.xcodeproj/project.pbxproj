@@ -12,6 +12,7 @@
 		7AF04B732AD9D4FC00505936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF04B722AD9D4FC00505936 /* Assets.xcassets */; };
 		7AF04B762AD9D4FC00505936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF04B752AD9D4FC00505936 /* Preview Assets.xcassets */; };
 		7AF04B7E2AD9D54800505936 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AF04B7C2AD9D54800505936 /* Model.xcdatamodeld */; };
+		7AF04BC22AD9D77000505936 /* KisilerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF04BC12AD9D77000505936 /* KisilerDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7AF04B722AD9D4FC00505936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF04B752AD9D4FC00505936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7AF04B7D2AD9D54800505936 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		7AF04BC12AD9D77000505936 /* KisilerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				7AF04B6E2AD9D4F300505936 /* CoreDataProjectApp.swift */,
 				7AF04B702AD9D4F300505936 /* ContentView.swift */,
+				7AF04BC12AD9D77000505936 /* KisilerDao.swift */,
 				7AF04B7C2AD9D54800505936 /* Model.xcdatamodeld */,
 				7AF04B722AD9D4FC00505936 /* Assets.xcassets */,
 				7AF04B742AD9D4FC00505936 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				7AF04B712AD9D4F300505936 /* ContentView.swift in Sources */,
 				7AF04B6F2AD9D4F300505936 /* CoreDataProjectApp.swift in Sources */,
+				7AF04BC22AD9D77000505936 /* KisilerDao.swift in Sources */,
 				7AF04B7E2AD9D54800505936 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
