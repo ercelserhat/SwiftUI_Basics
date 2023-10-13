@@ -62,4 +62,16 @@ class KisilerDao{
             print(error.localizedDescription)
         }
     }
+    
+    func kontrol(kisi_ad: String){
+        do{
+            let fr = Kisiler.fetchRequest()
+            fr.predicate = NSPredicate(format: "kisi_ad == %@", kisi_ad)
+            
+            let sonuc = try context.count(for: fr)
+            print("Sonuç : \(sonuc)")
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
 }

@@ -19,9 +19,11 @@ struct ContentView: View {
                 kdao.kaydet(kisi_ad: "Mehmet", kisi_tel: "3333")
                 kdao.tumKisiler()
                 
-                kdao.ara(aramaKelimesi: "hat")*/
+                kdao.ara(aramaKelimesi: "hat")
                 
-                kdao.getir(kisi_ad: "Serhat")
+                kdao.getir(kisi_ad: "Serhat")*/
+                
+                kdao.kontrol(kisi_ad: "Serhat")
             }
     }
 }
