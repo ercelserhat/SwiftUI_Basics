@@ -46,4 +46,20 @@ class KisilerDao{
             print(error.localizedDescription)
         }
     }
+    
+    func getir(kisi_ad: String){
+        do{
+            let fr = Kisiler.fetchRequest()
+            fr.predicate = NSPredicate(format: "kisi_ad == %@", kisi_ad)
+            let liste = try context.fetch(fr)
+            
+            for k in liste{
+                print("---------------------")
+                print("Kişi Ad: \(k.kisi_ad!)")
+                print("Kişi Tel: \(k.kisi_tel!)")
+            }
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
 }
