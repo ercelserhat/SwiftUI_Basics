@@ -30,4 +30,20 @@ class KisilerDao{
             print(error.localizedDescription)
         }
     }
+    
+    func ara(aramaKelimesi: String){
+        do{
+            let fr = Kisiler.fetchRequest()
+            fr.predicate = NSPredicate(format: "kisi_ad CONTAINS[c] %@", aramaKelimesi)
+            let liste = try context.fetch(fr)
+            
+            for k in liste{
+                print("---------------------")
+                print("Kişi Ad: \(k.kisi_ad!)")
+                print("Kişi Tel: \(k.kisi_tel!)")
+            }
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
 }
