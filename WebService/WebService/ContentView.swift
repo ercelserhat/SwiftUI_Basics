@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Text("")
                 .onAppear(){
-                    let kdao = KisilerDao()
+                    //let kdao = KisilerDao()
                     
                     //kdao.kisileriYukle()
                     
@@ -22,7 +22,11 @@ struct ContentView: View {
                     
                     //kdao.sil(kisi_id: 16005)
                     
-                    kdao.ara(aramaKelimesi: "er")
+                    //kdao.ara(aramaKelimesi: "er")
+                    
+                    let kategorilerDao = KategorilerDao()
+                    
+                    kategorilerDao.kategorileriYukle()
                 }
         }
         .padding()
