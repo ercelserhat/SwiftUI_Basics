@@ -10,5 +10,11 @@ import Firebase
 
 class KisilerDao{
     //Firebase Reference Point
-    var resKisiler = Database.database().reference().child("kisiler")
+    var refKisiler = Database.database().reference().child("kisiler")
+    
+    //Save function
+    func kaydet(kisi_ad: String, kisi_yas: Int){
+        let yeniKisi = ["kisi_ad" : kisi_ad, "kisi_yas" : kisi_yas] as [String : Any]
+        refKisiler.childByAutoId().setValue(yeniKisi)
+    }
 }
