@@ -24,7 +24,11 @@ struct ContentView: View {
                     
                     //kisilerDao.guncelle(key: "-NgjZyfos4Sf29ACggkI", kisi_ad: "Yeni İsim", kisi_yas: 23)
                     
-                    kisilerDao.equal()
+                    //kisilerDao.equal()
+                    
+                    //kisilerDao.betweenValues()
+                    
+                    kisilerDao.limit()
                 }
         }
         .padding()
