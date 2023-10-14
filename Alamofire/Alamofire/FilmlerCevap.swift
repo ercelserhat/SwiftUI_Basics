@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+class FilmlerCevap: Codable{
+    var filmler: [Filmler]?
+    var success: Int?
+}

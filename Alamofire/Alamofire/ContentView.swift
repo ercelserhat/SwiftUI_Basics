@@ -20,8 +20,11 @@ struct ContentView: View {
                     //kisilerDao.ara(aramaKelimesi: "hat")
                     
                     
-                    let kategorilerDao = KategorilerDao()
-                    kategorilerDao.kategorileriYukle()
+                    //let kategorilerDao = KategorilerDao()
+                    //kategorilerDao.kategorileriYukle()
+                    
+                    let filmlerDao = FilmlerDao()
+                    filmlerDao.filmleriYukle()
                 }
         }
         .padding()
