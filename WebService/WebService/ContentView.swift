@@ -20,7 +20,9 @@ struct ContentView: View {
                     
                     //kdao.guncelle(kisi_id: 16005, kisi_ad: "SERHAT", kisi_tel: "123456789")
                     
-                    kdao.sil(kisi_id: 16005)
+                    //kdao.sil(kisi_id: 16005)
+                    
+                    kdao.ara(aramaKelimesi: "er")
                 }
         }
         .padding()
