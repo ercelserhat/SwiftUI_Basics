@@ -51,4 +51,28 @@ class KisilerDao{
         let guncellenenKisi = ["kisi_ad" : kisi_ad, "kisi_yas" : kisi_yas] as [String : Any]
         refKisiler.child(key).updateChildValues(guncellenenKisi)
     }
+    
+    //Equal query function
+    func equal(){
+        let sorgu = refKisiler.queryOrdered(byChild: "kisi_ad").queryEqual(toValue: "Berna")
+        sorgu.observe(.value, with: {snapshot in
+            var liste = [Kisiler]()
+            if let gelenVeri = snapshot.value as? [String : Any]{
+                for satir in gelenVeri{
+                    if let d = satir.value as? NSDictionary{
+                        let kisi_ad = d["kisi_ad"] as? String ?? ""
+                        let kisi_yas = d["kisi_yas"] as? Int ?? 0
+                        let kisi = Kisiler(kisi_ad: kisi_ad, kisi_yas: kisi_yas)
+                        liste.append(kisi)
+                    }
+                }
+            }
+            
+            for k in liste{
+                print("----------------------")
+                print("Kişi Ad  : \(k.kisi_ad!)")
+                print("Kişi Yaş : \(k.kisi_yas!)")
+            }
+        })
+    }
 }
