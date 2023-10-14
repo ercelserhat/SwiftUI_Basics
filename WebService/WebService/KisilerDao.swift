@@ -65,4 +65,22 @@ class KisilerDao{
             }
         }.resume()
     }
+    
+    func sil(kisi_id: Int){
+        var istek = URLRequest(url: URL(string: "http://kasimadalan.pe.hu/kisiler/delete_kisiler.php")!)
+        istek.httpMethod = "POST"
+        let postString = "kisi_id=\(kisi_id)"
+        istek.httpBody = postString.data(using: .utf8)
+        
+        URLSession.shared.dataTask(with: istek){ data, response, error in
+            do{
+                let cevap = try JSONDecoder().decode(CRUDCevap.self, from: data!)
+                print("-------------SİL-------------")
+                print("Başarı   : \(cevap.success!)")
+                print("Mesaj    : \(cevap.message!)")
+            }catch{
+                print(error.localizedDescription)
+            }
+        }.resume()
+    }
 }
