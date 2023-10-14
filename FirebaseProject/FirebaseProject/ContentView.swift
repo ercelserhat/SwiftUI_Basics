@@ -18,7 +18,9 @@ struct ContentView: View {
                     kisilerDao.kaydet(kisi_ad: "Mehmet", kisi_yas: 35)
                     kisilerDao.kaydet(kisi_ad: "Zeynep", kisi_yas: 20)*/
                     
-                    kisilerDao.kisileriYukle()
+                    //kisilerDao.kisileriYukle()
+                    
+                    kisilerDao.sil(key: "-NgjZyfos4Sf29ACggkJ")
                 }
         }
         .padding()

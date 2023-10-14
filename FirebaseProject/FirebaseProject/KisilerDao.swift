@@ -40,4 +40,9 @@ class KisilerDao{
             }
         })
     }
+    
+    //Delete function
+    func sil(key: String){
+        refKisiler.child(key).removeValue()
+    }
 }
