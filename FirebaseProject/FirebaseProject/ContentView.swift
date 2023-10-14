@@ -13,10 +13,12 @@ struct ContentView: View {
             Text("")
                 .onAppear{
                     let kisilerDao = KisilerDao()
-                    kisilerDao.kaydet(kisi_ad: "Serhat", kisi_yas: 31)
+                    /*kisilerDao.kaydet(kisi_ad: "Serhat", kisi_yas: 31)
                     kisilerDao.kaydet(kisi_ad: "Ahmet", kisi_yas: 23)
                     kisilerDao.kaydet(kisi_ad: "Mehmet", kisi_yas: 35)
-                    kisilerDao.kaydet(kisi_ad: "Zeynep", kisi_yas: 20)
+                    kisilerDao.kaydet(kisi_ad: "Zeynep", kisi_yas: 20)*/
+                    
+                    kisilerDao.kisileriYukle()
                 }
         }
         .padding()
