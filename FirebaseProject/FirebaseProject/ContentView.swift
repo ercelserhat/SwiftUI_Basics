@@ -20,7 +20,9 @@ struct ContentView: View {
                     
                     //kisilerDao.kisileriYukle()
                     
-                    kisilerDao.sil(key: "-NgjZyfos4Sf29ACggkJ")
+                    //kisilerDao.sil(key: "-NgjZyfos4Sf29ACggkJ")
+                    
+                    kisilerDao.guncelle(key: "-NgjZyfos4Sf29ACggkI", kisi_ad: "Yeni İsim", kisi_yas: 23)
                 }
         }
         .padding()

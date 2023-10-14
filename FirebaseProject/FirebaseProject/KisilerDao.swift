@@ -45,4 +45,10 @@ class KisilerDao{
     func sil(key: String){
         refKisiler.child(key).removeValue()
     }
+    
+    //Update function
+    func guncelle(key: String, kisi_ad: String, kisi_yas: Int){
+        let guncellenenKisi = ["kisi_ad" : kisi_ad, "kisi_yas" : kisi_yas] as [String : Any]
+        refKisiler.child(key).updateChildValues(guncellenenKisi)
+    }
 }
