@@ -11,6 +11,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("")
+                .onAppear(){
+                    let kdao = KisilerDao()
+                    kdao.kisileriYukle()
+                }
         }
         .padding()
     }
