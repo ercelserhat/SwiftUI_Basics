@@ -12,12 +12,16 @@ struct ContentView: View {
         VStack {
             Text("")
                 .onAppear(){
-                    let kisilerDao = KisilerDao()
+                    //let kisilerDao = KisilerDao()
                     //kisilerDao.kisileriYukle()
                     //kisilerDao.kaydet(kisi_ad: "ZEYNEP", kisi_tel: "ZEYNEPTEL")
                     //kisilerDao.guncelle(kisi_id: 16017, kisi_ad: "serhat", kisi_tel: "serhat")
                     //kisilerDao.sil(kisi_id: 16017)
-                    kisilerDao.ara(aramaKelimesi: "hat")
+                    //kisilerDao.ara(aramaKelimesi: "hat")
+                    
+                    
+                    let kategorilerDao = KategorilerDao()
+                    kategorilerDao.kategorileriYukle()
                 }
         }
         .padding()

@@ -16,6 +16,9 @@
 		7A10263C2ADAFBBE007F88A2 /* KisilerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10263B2ADAFBBE007F88A2 /* KisilerDao.swift */; };
 		7A10263F2ADAFC00007F88A2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7A10263E2ADAFC00007F88A2 /* Alamofire */; };
 		7A1026422ADAFDE0007F88A2 /* CRUDCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1026412ADAFDE0007F88A2 /* CRUDCevap.swift */; };
+		7A1026442ADB038A007F88A2 /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1026432ADB038A007F88A2 /* Kategoriler.swift */; };
+		7A1026472ADB03C2007F88A2 /* KategorilerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1026462ADB03C2007F88A2 /* KategorilerCevap.swift */; };
+		7A1026492ADB03FC007F88A2 /* KategorilerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1026482ADB03FC007F88A2 /* KategorilerDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		7A10263B2ADAFBBE007F88A2 /* KisilerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerDao.swift; sourceTree = "<group>"; };
 		7A1026402ADAFD56007F88A2 /* AlamofireProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AlamofireProject-Info.plist"; sourceTree = "<group>"; };
 		7A1026412ADAFDE0007F88A2 /* CRUDCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDCevap.swift; sourceTree = "<group>"; };
+		7A1026432ADB038A007F88A2 /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		7A1026462ADB03C2007F88A2 /* KategorilerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerCevap.swift; sourceTree = "<group>"; };
+		7A1026482ADB03FC007F88A2 /* KategorilerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 				7A1026392ADAFB34007F88A2 /* KisilerCevap.swift */,
 				7A10263B2ADAFBBE007F88A2 /* KisilerDao.swift */,
 				7A1026412ADAFDE0007F88A2 /* CRUDCevap.swift */,
+				7A1026432ADB038A007F88A2 /* Kategoriler.swift */,
+				7A1026462ADB03C2007F88A2 /* KategorilerCevap.swift */,
+				7A1026482ADB03FC007F88A2 /* KategorilerDao.swift */,
 				7A10262A2ADAEE4C007F88A2 /* Assets.xcassets */,
 				7A10262C2ADAEE4C007F88A2 /* Preview Content */,
 			);
@@ -168,11 +177,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A1026292ADAEE4B007F88A2 /* ContentView.swift in Sources */,
+				7A1026472ADB03C2007F88A2 /* KategorilerCevap.swift in Sources */,
 				7A1026422ADAFDE0007F88A2 /* CRUDCevap.swift in Sources */,
+				7A1026492ADB03FC007F88A2 /* KategorilerDao.swift in Sources */,
 				7A10263C2ADAFBBE007F88A2 /* KisilerDao.swift in Sources */,
 				7A1026272ADAEE4B007F88A2 /* AlamofireApp.swift in Sources */,
 				7A1026382ADAFB0D007F88A2 /* Kisiler.swift in Sources */,
 				7A10263A2ADAFB34007F88A2 /* KisilerCevap.swift in Sources */,
+				7A1026442ADB038A007F88A2 /* Kategoriler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
