@@ -21,6 +21,7 @@
 		7A1025EA2ADAD608007F88A2 /* FilmlerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025E92ADAD608007F88A2 /* FilmlerCevap.swift */; };
 		7A1025ED2ADAD75F007F88A2 /* KisilerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025EC2ADAD75F007F88A2 /* KisilerDao.swift */; };
 		7A1025EF2ADAE15E007F88A2 /* KategorilerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025EE2ADAE15E007F88A2 /* KategorilerDao.swift */; };
+		7A1025F12ADAE494007F88A2 /* FilmlerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025F02ADAE494007F88A2 /* FilmlerDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		7A1025EB2ADAD682007F88A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7A1025EC2ADAD75F007F88A2 /* KisilerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerDao.swift; sourceTree = "<group>"; };
 		7A1025EE2ADAE15E007F88A2 /* KategorilerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerDao.swift; sourceTree = "<group>"; };
+		7A1025F02ADAE494007F88A2 /* FilmlerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				7A1025E92ADAD608007F88A2 /* FilmlerCevap.swift */,
 				7A1025EC2ADAD75F007F88A2 /* KisilerDao.swift */,
 				7A1025EE2ADAE15E007F88A2 /* KategorilerDao.swift */,
+				7A1025F02ADAE494007F88A2 /* FilmlerDao.swift */,
 				7A1025D12ADAD103007F88A2 /* Assets.xcassets */,
 				7A1025D32ADAD103007F88A2 /* Preview Content */,
 			);
@@ -171,6 +174,7 @@
 			files = (
 				7A1025EF2ADAE15E007F88A2 /* KategorilerDao.swift in Sources */,
 				7A1025ED2ADAD75F007F88A2 /* KisilerDao.swift in Sources */,
+				7A1025F12ADAE494007F88A2 /* FilmlerDao.swift in Sources */,
 				7A1025E42ADAD341007F88A2 /* KategorilerCevap.swift in Sources */,
 				7A1025D02ADAD101007F88A2 /* ContentView.swift in Sources */,
 				7A1025DC2ADAD157007F88A2 /* CRUDCevap.swift in Sources */,

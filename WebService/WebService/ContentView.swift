@@ -24,9 +24,12 @@ struct ContentView: View {
                     
                     //kdao.ara(aramaKelimesi: "er")
                     
-                    let kategorilerDao = KategorilerDao()
+                    //let kategorilerDao = KategorilerDao()
                     
-                    kategorilerDao.kategorileriYukle()
+                    //kategorilerDao.kategorileriYukle()
+                    
+                    let filmlerDao = FilmlerDao()
+                    filmlerDao.filmleriYukle()
                 }
         }
         .padding()
