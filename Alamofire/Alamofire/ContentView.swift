@@ -13,7 +13,8 @@ struct ContentView: View {
             Text("")
                 .onAppear(){
                     let kisilerDao = KisilerDao()
-                    kisilerDao.kisileriYukle()
+                    //kisilerDao.kisileriYukle()
+                    kisilerDao.kaydet(kisi_ad: "TESTSERHAT", kisi_tel: "TESTTELEFON")
                 }
         }
         .padding()
