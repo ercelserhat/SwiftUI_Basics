@@ -12,6 +12,13 @@
 		7A1025D22ADAD103007F88A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1025D12ADAD103007F88A2 /* Assets.xcassets */; };
 		7A1025D52ADAD103007F88A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1025D42ADAD103007F88A2 /* Preview Assets.xcassets */; };
 		7A1025DC2ADAD157007F88A2 /* CRUDCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025DB2ADAD157007F88A2 /* CRUDCevap.swift */; };
+		7A1025DE2ADAD24F007F88A2 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025DD2ADAD24F007F88A2 /* Kisiler.swift */; };
+		7A1025E02ADAD2AF007F88A2 /* KisilerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025DF2ADAD2AF007F88A2 /* KisilerCevap.swift */; };
+		7A1025E22ADAD319007F88A2 /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025E12ADAD319007F88A2 /* Kategoriler.swift */; };
+		7A1025E42ADAD341007F88A2 /* KategorilerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025E32ADAD341007F88A2 /* KategorilerCevap.swift */; };
+		7A1025E62ADAD41C007F88A2 /* Yonetmenler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025E52ADAD41C007F88A2 /* Yonetmenler.swift */; };
+		7A1025E82ADAD4E6007F88A2 /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025E72ADAD4E6007F88A2 /* Filmler.swift */; };
+		7A1025EA2ADAD608007F88A2 /* FilmlerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1025E92ADAD608007F88A2 /* FilmlerCevap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +28,13 @@
 		7A1025D12ADAD103007F88A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A1025D42ADAD103007F88A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A1025DB2ADAD157007F88A2 /* CRUDCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDCevap.swift; sourceTree = "<group>"; };
+		7A1025DD2ADAD24F007F88A2 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		7A1025DF2ADAD2AF007F88A2 /* KisilerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerCevap.swift; sourceTree = "<group>"; };
+		7A1025E12ADAD319007F88A2 /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		7A1025E32ADAD341007F88A2 /* KategorilerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerCevap.swift; sourceTree = "<group>"; };
+		7A1025E52ADAD41C007F88A2 /* Yonetmenler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonetmenler.swift; sourceTree = "<group>"; };
+		7A1025E72ADAD4E6007F88A2 /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		7A1025E92ADAD608007F88A2 /* FilmlerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerCevap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +69,14 @@
 			children = (
 				7A1025CD2ADAD101007F88A2 /* WebServiceApp.swift */,
 				7A1025CF2ADAD101007F88A2 /* ContentView.swift */,
+				7A1025DD2ADAD24F007F88A2 /* Kisiler.swift */,
+				7A1025DF2ADAD2AF007F88A2 /* KisilerCevap.swift */,
+				7A1025E12ADAD319007F88A2 /* Kategoriler.swift */,
+				7A1025E32ADAD341007F88A2 /* KategorilerCevap.swift */,
 				7A1025DB2ADAD157007F88A2 /* CRUDCevap.swift */,
+				7A1025E52ADAD41C007F88A2 /* Yonetmenler.swift */,
+				7A1025E72ADAD4E6007F88A2 /* Filmler.swift */,
+				7A1025E92ADAD608007F88A2 /* FilmlerCevap.swift */,
 				7A1025D12ADAD103007F88A2 /* Assets.xcassets */,
 				7A1025D32ADAD103007F88A2 /* Preview Content */,
 			);
@@ -140,9 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1025E42ADAD341007F88A2 /* KategorilerCevap.swift in Sources */,
 				7A1025D02ADAD101007F88A2 /* ContentView.swift in Sources */,
 				7A1025DC2ADAD157007F88A2 /* CRUDCevap.swift in Sources */,
 				7A1025CE2ADAD101007F88A2 /* WebServiceApp.swift in Sources */,
+				7A1025E22ADAD319007F88A2 /* Kategoriler.swift in Sources */,
+				7A1025E82ADAD4E6007F88A2 /* Filmler.swift in Sources */,
+				7A1025E02ADAD2AF007F88A2 /* KisilerCevap.swift in Sources */,
+				7A1025E62ADAD41C007F88A2 /* Yonetmenler.swift in Sources */,
+				7A1025DE2ADAD24F007F88A2 /* Kisiler.swift in Sources */,
+				7A1025EA2ADAD608007F88A2 /* FilmlerCevap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
