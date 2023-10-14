@@ -14,6 +14,8 @@ struct ContentView: View {
                 .onAppear(){
                     let kdao = KisilerDao()
                     kdao.kisileriYukle()
+                    
+                    kdao.kaydet(kisi_ad: "Serhat", kisi_tel: "7777777")
                 }
         }
         .padding()
