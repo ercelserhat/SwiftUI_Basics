@@ -39,6 +39,7 @@
 		7A1026A02ADB1A0E007F88A2 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A10269F2ADB1A0E007F88A2 /* FirebaseRemoteConfigSwift */; };
 		7A1026A22ADB1A0E007F88A2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7A1026A12ADB1A0E007F88A2 /* FirebaseStorage */; };
 		7A1026A42ADB1A0E007F88A2 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7A1026A32ADB1A0E007F88A2 /* FirebaseStorageCombine-Community */; };
+		7A1026A62ADB1B0F007F88A2 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1026A52ADB1B0F007F88A2 /* Kisiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		7A1026622ADB113C007F88A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A1026652ADB113C007F88A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A10266C2ADB196E007F88A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A1026A52ADB1B0F007F88A2 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				7A10265E2ADB113B007F88A2 /* FirebaseProjectApp.swift */,
 				7A1026602ADB113B007F88A2 /* ContentView.swift */,
+				7A1026A52ADB1B0F007F88A2 /* Kisiler.swift */,
 				7A1026622ADB113C007F88A2 /* Assets.xcassets */,
 				7A10266C2ADB196E007F88A2 /* GoogleService-Info.plist */,
 				7A1026642ADB113C007F88A2 /* Preview Content */,
@@ -229,6 +232,7 @@
 			files = (
 				7A1026612ADB113B007F88A2 /* ContentView.swift in Sources */,
 				7A10265F2ADB113B007F88A2 /* FirebaseProjectApp.swift in Sources */,
+				7A1026A62ADB1B0F007F88A2 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
