@@ -14,9 +14,10 @@ struct ContentView: View {
                 .onAppear(){
                     let kisilerDao = KisilerDao()
                     //kisilerDao.kisileriYukle()
-                    //kisilerDao.kaydet(kisi_ad: "TESTSERHAT", kisi_tel: "TESTTELEFON")
+                    //kisilerDao.kaydet(kisi_ad: "ZEYNEP", kisi_tel: "ZEYNEPTEL")
                     //kisilerDao.guncelle(kisi_id: 16017, kisi_ad: "serhat", kisi_tel: "serhat")
-                    kisilerDao.sil(kisi_id: 16017)
+                    //kisilerDao.sil(kisi_id: 16017)
+                    kisilerDao.ara(aramaKelimesi: "hat")
                 }
         }
         .padding()

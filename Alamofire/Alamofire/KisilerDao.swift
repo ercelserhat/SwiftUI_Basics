@@ -83,4 +83,28 @@ class KisilerDao{
             }
         }
     }
+    
+    func ara(aramaKelimesi: String){
+        let url = "http://kasimadalan.pe.hu/kisiler/tum_kisiler_arama.php"
+        let params: Parameters = ["kisi_ad" : aramaKelimesi]
+        AF.request(url, method: .post, parameters: params).response{ response in
+            if let data = response.data{
+                do{
+                    let cevap = try JSONDecoder().decode(KisilerCevap.self, from: data)
+                    if let liste = cevap.kisiler{
+                        for k in liste{
+                            print("---------------------")
+                            print("Kişi Id  : \(k.kisi_id!)")
+                            print("Kişi Ad  : \(k.kisi_ad!)")
+                            print("Kişi Tel : \(k.kisi_tel!)")
+                        }
+                    }
+                    print("---------------------")
+                    print("Başarı   : \(cevap.success!)")
+                }catch{
+                    print(error.localizedDescription)
+                }
+            }
+        }
+    }
 }
