@@ -30,4 +30,14 @@ extension AppDelegate: UNUserNotificationCenterDelegate{
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([.banner, .sound, .badge])
     }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        let app = UIApplication.shared
+        if app.applicationState == .active{
+            print("Bildirim ön planda tıklandı")
+        }else{
+            print("Bildirim arka planda tıklandı")
+        }
+        completionHandler()
+    }
 }
