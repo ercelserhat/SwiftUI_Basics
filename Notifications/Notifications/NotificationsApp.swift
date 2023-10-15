@@ -38,6 +38,10 @@ extension AppDelegate: UNUserNotificationCenterDelegate{
         }else{
             print("Bildirim arka planda tıklandı")
         }
+        
+        app.applicationIconBadgeNumber = 0
+        
         completionHandler()
     }
+
 }
