@@ -22,10 +22,18 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Bildirim Oluştur"){
+                let icerik = UNMutableNotificationContent()
+                icerik.title = "Başlık"
+                icerik.subtitle = "Alt başlık"
+                icerik.body = "İçerik"
+                icerik.badge = 1
+                icerik.sound = UNNotificationSound.default
+                
+                let tetikleme = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+                let istek = UNNotificationRequest(identifier: "id", content: icerik, trigger: tetikleme)
+                UNUserNotificationCenter.current().add(istek)
+            }
         }
         .padding()
     }
