@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A160B622AD7408A0044B95F /* FoodOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A160B612AD7408A0044B95F /* FoodOrder.swift */; };
+		7A160B642AD7408A0044B95F /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A160B632AD7408A0044B95F /* Anasayfa.swift */; };
+		7A160B662AD7408B0044B95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A160B652AD7408B0044B95F /* Assets.xcassets */; };
+		7A160B692AD7408B0044B95F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A160B682AD7408B0044B95F /* Preview Assets.xcassets */; };
+		7A160B702AD740F30044B95F /* Yemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A160B6F2AD740F30044B95F /* Yemekler.swift */; };
+		7A160B722AD7415D0044B95F /* YemekSatir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A160B712AD7415D0044B95F /* YemekSatir.swift */; };
+		7A160B742AD742950044B95F /* YemekDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A160B732AD742950044B95F /* YemekDetay.swift */; };
+		7A9A1FFF2ADC68A000964941 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7A9A1FFE2ADC68A000964941 /* Alamofire */; };
+		7A9A20012ADC68FE00964941 /* YemeklerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A20002ADC68FE00964941 /* YemeklerCevap.swift */; };
+		7AF04B3D2AD7F58600505936 /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF04B3C2AD7F58600505936 /* AnasayfaViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A160B5E2AD7408A0044B95F /* FoodOrder_Alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodOrder_Alamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A160B612AD7408A0044B95F /* FoodOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrder.swift; sourceTree = "<group>"; };
+		7A160B632AD7408A0044B95F /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
+		7A160B652AD7408B0044B95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A160B682AD7408B0044B95F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A160B6F2AD740F30044B95F /* Yemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemekler.swift; sourceTree = "<group>"; };
+		7A160B712AD7415D0044B95F /* YemekSatir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSatir.swift; sourceTree = "<group>"; };
+		7A160B732AD742950044B95F /* YemekDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetay.swift; sourceTree = "<group>"; };
+		7A9A1FFC2ADC688600964941 /* FoodOrder-Alamofire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FoodOrder-Alamofire-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7A9A20002ADC68FE00964941 /* YemeklerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeklerCevap.swift; sourceTree = "<group>"; };
+		7AF04B3C2AD7F58600505936 /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A160B5B2AD7408A0044B95F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9A1FFF2ADC68A000964941 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A160B552AD7408A0044B95F = {
+			isa = PBXGroup;
+			children = (
+				7A160B602AD7408A0044B95F /* FoodOrder_Alamofire */,
+				7A160B5F2AD7408A0044B95F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A160B5F2AD7408A0044B95F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A160B5E2AD7408A0044B95F /* FoodOrder_Alamofire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A160B602AD7408A0044B95F /* FoodOrder_Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				7A9A1FFC2ADC688600964941 /* FoodOrder-Alamofire-Info.plist */,
+				7A160B612AD7408A0044B95F /* FoodOrder.swift */,
+				7AF04B382AD7F54600505936 /* ui */,
+				7AF04B362AD7EEA400505936 /* data */,
+				7A160B652AD7408B0044B95F /* Assets.xcassets */,
+				7A160B672AD7408B0044B95F /* Preview Content */,
+			);
+			path = FoodOrder_Alamofire;
+			sourceTree = "<group>";
+		};
+		7A160B672AD7408B0044B95F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A160B682AD7408B0044B95F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AF04B362AD7EEA400505936 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				7AF04B372AD7EEAB00505936 /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		7AF04B372AD7EEAB00505936 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				7A160B6F2AD740F30044B95F /* Yemekler.swift */,
+				7A9A20002ADC68FE00964941 /* YemeklerCevap.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		7AF04B382AD7F54600505936 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				7AF04B3B2AD7F56200505936 /* viewmodel */,
+				7AF04B3A2AD7F55B00505936 /* view */,
+				7AF04B392AD7F55200505936 /* list */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		7AF04B392AD7F55200505936 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				7A160B712AD7415D0044B95F /* YemekSatir.swift */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		7AF04B3A2AD7F55B00505936 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7A160B632AD7408A0044B95F /* Anasayfa.swift */,
+				7A160B732AD742950044B95F /* YemekDetay.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7AF04B3B2AD7F56200505936 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				7AF04B3C2AD7F58600505936 /* AnasayfaViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A160B5D2AD7408A0044B95F /* FoodOrder_Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A160B6C2AD7408B0044B95F /* Build configuration list for PBXNativeTarget "FoodOrder_Alamofire" */;
+			buildPhases = (
+				7A160B5A2AD7408A0044B95F /* Sources */,
+				7A160B5B2AD7408A0044B95F /* Frameworks */,
+				7A160B5C2AD7408A0044B95F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodOrder_Alamofire;
+			packageProductDependencies = (
+				7A9A1FFE2ADC68A000964941 /* Alamofire */,
+			);
+			productName = RecipesApp;
+			productReference = 7A160B5E2AD7408A0044B95F /* FoodOrder_Alamofire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A160B562AD7408A0044B95F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7A160B5D2AD7408A0044B95F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7A160B592AD7408A0044B95F /* Build configuration list for PBXProject "FoodOrder_Alamofire" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A160B552AD7408A0044B95F;
+			packageReferences = (
+				7A9A1FFD2ADC68A000964941 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 7A160B5F2AD7408A0044B95F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A160B5D2AD7408A0044B95F /* FoodOrder_Alamofire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A160B5C2AD7408A0044B95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A160B692AD7408B0044B95F /* Preview Assets.xcassets in Resources */,
+				7A160B662AD7408B0044B95F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A160B5A2AD7408A0044B95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A160B642AD7408A0044B95F /* Anasayfa.swift in Sources */,
+				7A160B742AD742950044B95F /* YemekDetay.swift in Sources */,
+				7AF04B3D2AD7F58600505936 /* AnasayfaViewModel.swift in Sources */,
+				7A160B722AD7415D0044B95F /* YemekSatir.swift in Sources */,
+				7A160B622AD7408A0044B95F /* FoodOrder.swift in Sources */,
+				7A9A20012ADC68FE00964941 /* YemeklerCevap.swift in Sources */,
+				7A160B702AD740F30044B95F /* Yemekler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A160B6A2AD7408B0044B95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A160B6B2AD7408B0044B95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A160B6D2AD7408B0044B95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodOrder_Alamofire/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FoodOrder-Alamofire-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ercelserhat.foodorder-Alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A160B6E2AD7408B0044B95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodOrder_Alamofire/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FoodOrder-Alamofire-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ercelserhat.foodorder-Alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A160B592AD7408A0044B95F /* Build configuration list for PBXProject "FoodOrder_Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A160B6A2AD7408B0044B95F /* Debug */,
+				7A160B6B2AD7408B0044B95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A160B6C2AD7408B0044B95F /* Build configuration list for PBXNativeTarget "FoodOrder_Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A160B6D2AD7408B0044B95F /* Debug */,
+				7A160B6E2AD7408B0044B95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A9A1FFD2ADC68A000964941 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A9A1FFE2ADC68A000964941 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A9A1FFD2ADC68A000964941 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7A160B562AD7408A0044B95F /* Project object */;
+}
